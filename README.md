@@ -1,3 +1,3 @@
 # Introduction
 
-*In this repository, you can see projects about python.*
+*In this repository, you can see projects of python.*
