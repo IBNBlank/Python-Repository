@@ -2,13 +2,15 @@
 # @Author: IBNBlank
 # @Date:   2018-09-08 22:13:01
 # @Last Modified by:   IBNBlank
-# @Last Modified time: 2018-09-09 18:25:04
+# @Last Modified time: 2019-01-11 00:00:04
 
 import tkinter as tk
 
 def button_function(listbox, string_var):
 	try:
 		value = listbox.get(listbox.curselection())
+		index, = listbox.curselection()
+		print(index)
 	except:
 		value = "No"
 	string_var.set(value)
